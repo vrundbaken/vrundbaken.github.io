@@ -1,0 +1,55 @@
+#header {
+  position:fixed;
+  z-index:-1;
+  height:500px; /* This will be dynamic via JS */
+  width:100%;
+  background: url("/IMAG0134.jpg") no-repeat center bottom;
+  background-size: cover;
+  
+  
+}
+
+#header div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  
+}
+
+#about {
+  background-color: #A53
+}
+
+#skills {
+  background-color: #C53
+}
+
+#projects {
+  background-color: #E53
+}
+
+#contact {
+  background-color: #F53
+}
+
+.content-wrapper {
+  top:500px;
+  height:500px; /* This will be dynamic via JS */
+  width:100%;
+  background-color: #853;
+  position:relative;
+}
+
+.section {
+  padding: 90px 0;
+}
+
+.navigation {
+  z-index: 100;
+}
+
+.nav li a {
+  -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 2s ease;
