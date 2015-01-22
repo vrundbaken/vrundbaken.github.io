@@ -5,14 +5,24 @@
   width:100%;
   background: url("/IMAG0134.jpg") no-repeat center bottom;
   background-size: cover;
-  
+  margin-top: 50px;
   
 }
 
 #header div {
+	/*
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  */
+  
+	background: #ffdb4c;
+	height: 300px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center
+}
   
 }
 
@@ -49,7 +59,11 @@
 }
 
 .nav li a {
+
   -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 2s ease;
+    
+
+}
